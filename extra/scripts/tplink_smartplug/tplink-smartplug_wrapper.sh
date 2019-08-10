@@ -18,7 +18,7 @@
 #
 
 #SCRIPT_PATH Should point to tplink-smartplug.py provided by https://github.com/softScheck/tplink-smartplug
-SCRIPT_PATH="./tplink-smartplug.py"
+SCRIPT_PATH="`dirname \"$0\"`/tplink-smartplug.py"
 
 PLUG_ADDR=$1
 ACTION=$2
